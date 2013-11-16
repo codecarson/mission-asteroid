@@ -1,3 +1,8 @@
+@import "compass"
+
+$link-color: #ffcd55
+
+
 body
   font-family: 'Myriad Pro', 'Roboto Condensed', sans-serif
   background: #000
@@ -45,13 +50,29 @@ nav
   float: left
   text-align: center
 
+  a
+    color: #FFF
+    display: block
+    &:hover
+      color: $link-color
+      text-decoration: none
+
+
+  .active
+
+    a
+      color: $link-color
+
+
   ul
     list-style-type: none
     margin-top: 0
 
   li
     margin-bottom: 30px
+    padding: 5px 0
     text-transform: uppercase
+
 
 .logos
   list-style: none
@@ -65,7 +86,7 @@ nav
 
 a
   // color: #ffb502
-  color: #ffcd55
+  color: $link-color
   text-decoration: none
 
   &:hover

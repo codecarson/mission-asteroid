@@ -1,35 +1,35 @@
-/* line 1, ../sass/main.sass */
+/* line 6, ../sass/main.sass */
 body {
   font-family: "Myriad Pro", "Roboto Condensed", sans-serif;
   background: black;
   color: white;
 }
 
-/* line 6, ../sass/main.sass */
+/* line 11, ../sass/main.sass */
 .container {
   background: url(../img/stardust.jpg) center top no-repeat;
   width: 100%;
 }
 
-/* line 10, ../sass/main.sass */
+/* line 15, ../sass/main.sass */
 .page-wrap {
   width: 952px;
   margin: 0 auto;
 }
 
-/* line 14, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 header {
   background: url(../img/header.jpg) no-repeat;
   width: 952px;
   height: 330px;
 }
 
-/* line 19, ../sass/main.sass */
+/* line 24, ../sass/main.sass */
 .page-body {
   margin-top: -70px;
 }
 
-/* line 22, ../sass/main.sass */
+/* line 27, ../sass/main.sass */
 footer {
   padding-top: 230px;
   font-family: "Roboto Condensed", sans-serif;
@@ -40,19 +40,19 @@ footer {
   clear: both;
 }
 
-/* line 31, ../sass/main.sass */
+/* line 36, ../sass/main.sass */
 .content {
   margin: 0 10px 0 77px;
   width: 585px;
   float: left;
   line-height: 23px;
 }
-/* line 37, ../sass/main.sass */
+/* line 42, ../sass/main.sass */
 .content > p:first-child {
   margin-top: 0;
 }
 
-/* line 40, ../sass/main.sass */
+/* line 45, ../sass/main.sass */
 nav {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
@@ -61,36 +61,51 @@ nav {
   float: left;
   text-align: center;
 }
-/* line 48, ../sass/main.sass */
+/* line 53, ../sass/main.sass */
+nav a {
+  color: white;
+  display: block;
+}
+/* line 56, ../sass/main.sass */
+nav a:hover {
+  color: #ffcd55;
+  text-decoration: none;
+}
+/* line 63, ../sass/main.sass */
+nav .active a {
+  color: #ffcd55;
+}
+/* line 67, ../sass/main.sass */
 nav ul {
   list-style-type: none;
   margin-top: 0;
 }
-/* line 52, ../sass/main.sass */
+/* line 71, ../sass/main.sass */
 nav li {
   margin-bottom: 30px;
+  padding: 5px 0;
   text-transform: uppercase;
 }
 
-/* line 56, ../sass/main.sass */
+/* line 77, ../sass/main.sass */
 .logos {
   list-style: none;
   margin-left: 20px;
   margin-top: 40px;
 }
-/* line 60, ../sass/main.sass */
+/* line 81, ../sass/main.sass */
 .logos li {
   float: left;
   margin-right: 10px;
   margin-bottom: 50px;
 }
 
-/* line 66, ../sass/main.sass */
+/* line 87, ../sass/main.sass */
 a {
   color: #ffcd55;
   text-decoration: none;
 }
-/* line 71, ../sass/main.sass */
+/* line 92, ../sass/main.sass */
 a:hover {
   text-decoration: underline;
 }
