@@ -60,52 +60,73 @@ nav {
   width: 257px;
   float: left;
   text-align: center;
+  margin-top: -2px;
 }
-/* line 53, ../sass/main.sass */
+/* line 54, ../sass/main.sass */
 nav a {
   color: white;
   display: block;
 }
-/* line 56, ../sass/main.sass */
+/* line 57, ../sass/main.sass */
 nav a:hover {
   color: #ffcd55;
   text-decoration: none;
 }
-/* line 63, ../sass/main.sass */
+/* line 64, ../sass/main.sass */
 nav .active a {
   color: #ffcd55;
 }
-/* line 67, ../sass/main.sass */
+/* line 68, ../sass/main.sass */
 nav ul {
   list-style-type: none;
   margin-top: 0;
 }
-/* line 71, ../sass/main.sass */
+/* line 72, ../sass/main.sass */
 nav li {
   margin-bottom: 30px;
   padding: 5px 0;
   text-transform: uppercase;
 }
-
 /* line 77, ../sass/main.sass */
+nav li:first-child {
+  padding-top: 0px;
+}
+
+/* line 81, ../sass/main.sass */
 .logos {
   list-style: none;
   margin-left: 20px;
   margin-top: 40px;
 }
-/* line 81, ../sass/main.sass */
+/* line 85, ../sass/main.sass */
 .logos li {
   float: left;
   margin-right: 10px;
   margin-bottom: 50px;
 }
 
-/* line 87, ../sass/main.sass */
+/* line 91, ../sass/main.sass */
 a {
   color: #ffcd55;
   text-decoration: none;
 }
-/* line 92, ../sass/main.sass */
+/* line 96, ../sass/main.sass */
 a:hover {
   text-decoration: underline;
+}
+
+/* line 99, ../sass/main.sass */
+h1 {
+  margin-top: 0px;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/* line 105, ../sass/main.sass */
+h2 {
+  margin-top: 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: normal;
 }
