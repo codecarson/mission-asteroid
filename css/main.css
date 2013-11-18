@@ -130,3 +130,19 @@ h2 {
   text-transform: uppercase;
   font-weight: normal;
 }
+
+/* line 111, ../sass/main.sass */
+.social {
+  text-align: center;
+  padding-left: 37px;
+  margin-bottom: 100px;
+}
+
+/* line 115, ../sass/main.sass */
+.social a {
+  display: inline-block;
+}
+/* line 117, ../sass/main.sass */
+.social a:first-child {
+  margin-right: 8px;
+}
